@@ -81,8 +81,8 @@ try:
             # Save to Excel with proper encoding
             # Get the current date
             current_date = datetime.today().strftime('%Y-%m-%d')
-            output_directory = "C:\\Pam\\Proj\\DB_report\\" #path directory
-            output_filename = f"phone_report_{current_date}_no_cut.xlsx" 
+            output_directory = #path directory
+            output_filename = #report file name
             
             # Combine the directory path and filename
             output_file = os.path.join(output_directory, output_filename)
